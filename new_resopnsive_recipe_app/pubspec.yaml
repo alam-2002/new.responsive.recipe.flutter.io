@@ -1,0 +1,43 @@
+name: recipe_app_youtube
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ----- All Packages -----
+
+  # -- Icon Packages --
+  cupertino_icons: ^1.0.8
+  line_awesome_flutter: ^3.0.1
+  google_fonts: ^6.2.1
+  google_nav_bar: ^5.0.6
+
+  # -- Others Packages --
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  get: ^4.6.6
+  share_plus: ^10.0.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/category_img/
+
